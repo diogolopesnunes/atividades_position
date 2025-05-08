@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.vermelho {
+    background-color: red;
+    height: 48.9vh;
+    margin-right: 50%;
+}
+
+.azul {
+    background-color: blue;
+    height: 48.9vh;
+    margin-left: 50%;
+}

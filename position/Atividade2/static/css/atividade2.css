@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.cabecalho {
+    background-color: #203788;
+    height: 100px;
+}
+
+.barra {
+    background-color: #B6FFDC;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 75px;
+}
+
+.bola {
+    background-color: #CF1919;
+    height: 150px;
+    width: 150px;
+    border-radius: 999px;
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+}

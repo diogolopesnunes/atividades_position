@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            height: 500vh;
+        }
+        div{
+            padding: 50px 60px;
+            margin: 40px;
+            height: 300;
+        }
+
+        .div1{
+            background-color: azure;
+            position: relative;
+        }
+
+        .div2{
+            background-color: black;
+            position: absolute;
+        }
+
+
+        .div3 {
+            background-color: blue;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+
+    <div class="div"></div>
+    <div class="div1">Azure
+        <div class="div2">Black</div>
+    </div>
+
+    <div class="div3">Blue</div>
+</body>
+</html>
