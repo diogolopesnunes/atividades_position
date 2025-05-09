@@ -8,10 +8,65 @@
     background-color: red;
     height: 48.9vh;
     margin-right: 50%;
+
+    animation-name:mover;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 
 .azul {
     background-color: blue;
-    height: 48.9vh;
+    height: 51vh;
     margin-left: 50%;
+    position: relative;
+
+    animation-name:piscar_azul;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mover {
+	0% {
+    transform: translateX(0px);
+  }
+	50% {
+    transform: translatex(760px);
+  }
+    100% {
+    transform: translateX(0px);
+    }
+}
+
+@keyframes piscar_azul {
+    100%,0%{
+        background-color: rgb(0,0,255);
+    }
+    11.11%{
+        background-color: rgb(0,63.5,255);
+    }
+    22.22%{
+        background-color: rgb(0,127,255);
+    }
+    33.33%{
+        background-color: rgb(63.5,127,255);
+    }
+    44.44%{
+        background-color: rgb(63.5,63.5,255);
+    }
+    55.55%{
+        background-color: rgb(63.5,0,255);
+    }
+    66.66%{
+        background-color: rgb(127,0,255);
+    }
+    77.77%{
+        background-color: rgb(127,63.5,255);
+    }
+    88.88%{
+        background-color: rgb(127,127,255);
+    }
 }
